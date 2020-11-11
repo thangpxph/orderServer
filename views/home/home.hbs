@@ -1,0 +1,86 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-2 col-md-4">
+            <H1 class="text-white mb-4">Quản lý</H1>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/home">Bàn</a></button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/order">Đơn đặt bàn</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/category">Thể loại</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/dish">Món ăn</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/notification">Thông
+                    báo</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="#">Thống kê</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/clientAccount">Tài
+                    khoản nhân viên</a></button>
+            </div>
+        </div>
+        <div class="col-xl-10 col-md-4">
+            <div class="container-fluid mt-5">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Thống kê số bàn
+                        <button type="button" class="btn btn-primary btn float-right"><a class="text-white"
+                                                                                         href="/addTable">Thêm bàn</a>
+                        </button>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <th style="text-align: center">Tổng số bàn</th>
+                                    <th style="text-align: center">Số bàn trống</th>
+                                    <th style="text-align: center">Số bàn đang có khách</th>
+                                    <th style="text-align: center">Số bàn đang được đặt trước</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-header"><i class="fas fa-table mr-3"></i>Danh sách bàn</div>
+                    <div class=" d-flex justify-content-around row" style="margin: 0 auto">
+<!--                        {{#each data}}-->
+<!--                                <div id="sta" class="bg_table" style="width: 18rem; height: 16rem; margin: 2em">-->
+<!--                                    <div class="card-body">-->
+<!--                                        <h5 style="text-align: center">{{this.nameTable}}</h5>-->
+<!--                                        <script>-->
+<!--                                            var status = {{this.status}};-->
+<!--                                            var sta = document.getElementById("sta")-->
+<!--                                            if (status == 1) {-->
+<!--                                                sta.style.backgroundColor = "#FF0000";-->
+<!--                                                document.write("<h2 style='text-align: center'>Đầy</h2>")-->
+<!--                                            } else {-->
+<!--                                                document.write("<h2 style='text-align: center'>Trống</h2>")-->
+<!--                                            }-->
+<!--                                        </script>-->
+<!--                                        <a href="#" style="margin-top: 9em" class="btn btn-block btn-primary align-bottom">Xem chi tiết</a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                        {{/each}}-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

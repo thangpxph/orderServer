@@ -1,0 +1,54 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-2 col-md-4">
+            <H1 class="text-white mb-4">Quản lý</H1>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/home">Bàn</a></button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/order">Đơn đặt bàn</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/category">Thể loại</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/dish">Món ăn</a></button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/notification">Thông báo</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="#">Thống kê</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/clientAccount">Tài khoản nhân
+                    viên</a></button>
+            </div>
+        </div>
+        <div class="col-xl-10 col-md-4">
+            <div class="card-header" style="margin-top: 5%">
+                <form action="/addTable" method="post">
+                    <div class="form-group">
+                        <label class="text-white">Tên bàn</label>
+                        <input type="text" name="nameTable" class="form-control" required autofocus>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-white">Số lượng người</label>
+                        <input name="amount_table" type="number" class="form-control" required autofocus>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Thêm Bàn</button>
+                </form>
+            </div>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                {{data}}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

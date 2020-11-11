@@ -4,6 +4,7 @@ var logger = require('morgan');
 var hbs = require('express-handlebars')
 var mongoose = require('mongoose');
 var indexRouter = require('./routes/index');
+var homeRouter = require('./routes/home');
 
 
 
@@ -32,6 +33,7 @@ app.use(express.static('public/css'));
 
 
 app.use('/', indexRouter);
+app.use('/home',homeRouter);
 
 
 
