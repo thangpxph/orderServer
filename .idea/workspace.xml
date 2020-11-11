@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61d43303-e308-49a2-a463-19a1080c2889" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/Table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/home/add_table/add_table.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/home/home.hbs" afterDir="false" />
+    <list default="true" id="61d43303-e308-49a2-a463-19a1080c2889" name="Default Changelist" comment="Home">
+      <change afterPath="$PROJECT_DIR$/routes/addTable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/home.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +28,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.19.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -40,8 +36,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\models" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\routes" />
+      <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\models" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\views" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\public\images" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\public" />
@@ -55,12 +51,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605097120092</updated>
-      <workItem from="1605097121176" duration="2402000" />
+      <workItem from="1605097121176" duration="3019000" />
     </task>
+    <task id="LOCAL-00001" summary="Home">
+      <created>1605099610117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605099610117</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home" />
   </component>
   <component name="WindowStateProjectService">
     <state x="558" y="267" key="Github.ShareDialog" timestamp="1605099004697">
@@ -71,21 +79,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="454" y="67" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1605099013974" />
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1605099538628">
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1605100164646">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605099538628" />
-    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1605099538628">
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605100164646" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1605100164645">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605099538628" />
-    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1605099538628">
+    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605100164645" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1605100164645">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605099538628" />
-    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1605099538628">
+    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605100164645" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1605100164645">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605099538628" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605100164645" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1605099618490">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1605099618490" />
   </component>
 </project>
