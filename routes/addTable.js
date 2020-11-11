@@ -16,7 +16,7 @@ router.post('/', async function (req, res) {
             nameTable: req.body.nameTable,
             amount: req.body.amount_table,
             information: null,
-            status: 2
+            status: 1
         });
         let status = await addTable.save();
         if (status) {
