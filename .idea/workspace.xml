@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="61d43303-e308-49a2-a463-19a1080c2889" name="Default Changelist" comment="Add Table">
+    <list default="true" id="61d43303-e308-49a2-a463-19a1080c2889" name="Default Changelist" comment="Category">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/home.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/category/addCategory/addCategory.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/category/addCategory/addCategory.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +55,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\routes" />
-      <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\models" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\views" />
+      <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\models" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\public\images" />
       <recent name="C:\Users\BaBong\Documents\Duan2\Server\orderServer\public" />
     </key>
@@ -54,6 +72,7 @@
       <workItem from="1605097121176" duration="5192000" />
       <workItem from="1605102784902" duration="13000" />
       <workItem from="1605106823079" duration="2342000" />
+      <workItem from="1605149486406" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="Home">
       <created>1605099610117</created>
@@ -83,18 +102,41 @@
       <option name="project" value="LOCAL" />
       <updated>1605100408671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Category">
+      <created>1605149749447</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605149749447</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Home" />
     <MESSAGE value="Add Table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Table" />
+    <MESSAGE value="Category" />
+    <option name="LAST_COMMIT_MESSAGE" value="Category" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2958" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605150546505">
+      <screen x="1366" y="0" width="2560" height="1050" />
+    </state>
+    <state x="2958" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605150546505" />
     <state x="558" y="267" key="Github.ShareDialog" timestamp="1605099004697">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -103,29 +145,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="454" y="67" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1605099013974" />
-    <state width="1371" height="281" key="GridCell.Tab.0.bottom" timestamp="1605112227279">
+    <state width="1371" height="278" key="GridCell.Tab.0.bottom" timestamp="1605150570473">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1371" height="281" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605112227279" />
+    <state width="1371" height="278" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605150570473" />
     <state width="1345" height="180" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605102358243" />
-    <state width="1371" height="281" key="GridCell.Tab.0.center" timestamp="1605112227278">
+    <state width="1371" height="278" key="GridCell.Tab.0.center" timestamp="1605150570472">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1371" height="281" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605112227278" />
+    <state width="1371" height="278" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605150570472" />
     <state width="1345" height="180" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605102358243" />
-    <state width="1371" height="281" key="GridCell.Tab.0.left" timestamp="1605112227278">
+    <state width="1371" height="278" key="GridCell.Tab.0.left" timestamp="1605150570472">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1371" height="281" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605112227278" />
+    <state width="1371" height="278" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605150570472" />
     <state width="1345" height="180" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605102358242" />
-    <state width="1371" height="281" key="GridCell.Tab.0.right" timestamp="1605112227278">
+    <state width="1371" height="278" key="GridCell.Tab.0.right" timestamp="1605150570472">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1371" height="281" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605112227278" />
+    <state width="1371" height="278" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605150570472" />
     <state width="1345" height="180" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605102358243" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1605100413016">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605149756452">
+      <screen x="1366" y="0" width="2560" height="1050" />
     </state>
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605149756452" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1605100413016" />
   </component>
 </project>
