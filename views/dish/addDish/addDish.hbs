@@ -1,0 +1,64 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-2 col-md-4">
+            <H1 class="text-white mb-4">Quản lý</H1>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/home">Bàn</a></button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/order">Đơn đặt bàn</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/category">Thể loại</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/dish">Món ăn</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/notification">Thông báo</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="#">Thống kê</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/clientAccount">Tài khoản nhân
+                    viên</a></button>
+            </div>
+        </div>
+        <div class="col-xl-10 col-md-4">
+            <div class="card-header" style="margin-top: 5%">
+                <form action="/add_dish" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Tên món ăn</label>
+                        <input type="text" name="nameProduct" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Thể loại</label>
+                        <input name="amount" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Giá bán</label>
+                        <input name="price" type="text" class="form-control" >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Thành phần</label>
+                        <input name="brand" type="text" class="form-control">
+                    </div>
+                    <div class="btn btn-secondary-success btn-rounded waves-effect btn-sm float-left w-full text-left">
+                        <span>Choose file</span>
+                        <input type="file" name="selectFile">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary mt-1">Thêm Sản Phẩm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
