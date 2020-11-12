@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61d43303-e308-49a2-a463-19a1080c2889" name="Default Changelist" comment="list Category">
-      <change afterPath="$PROJECT_DIR$/models/Dish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/dish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/dish/addDish/addDish.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/dish/index.hbs" afterDir="false" />
+    <list default="true" id="61d43303-e308-49a2-a463-19a1080c2889" name="Default Changelist" comment="add Dish">
+      <change afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
@@ -34,6 +31,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1k8zgm0nxaI44OkqcR75wH330Ie" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -78,7 +81,7 @@
       <workItem from="1605102784902" duration="13000" />
       <workItem from="1605106823079" duration="2342000" />
       <workItem from="1605149486406" duration="2552000" />
-      <workItem from="1605193207212" duration="727000" />
+      <workItem from="1605193207212" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="Home">
       <created>1605099610117</created>
@@ -136,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605151861514</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add Dish">
+      <created>1605193978500</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605193978500</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +170,8 @@
     <MESSAGE value="Category" />
     <MESSAGE value="addCategory" />
     <MESSAGE value="list Category" />
-    <option name="LAST_COMMIT_MESSAGE" value="list Category" />
+    <MESSAGE value="add Dish" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Dish" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2958" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605193915979">
@@ -195,10 +206,10 @@
     </state>
     <state width="1256" height="280" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605193937050" />
     <state width="1345" height="180" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605102358243" />
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605151865879">
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605193982811">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605151865879" />
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605193982811" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1605100413016" />
   </component>
 </project>

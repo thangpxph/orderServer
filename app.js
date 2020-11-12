@@ -4,6 +4,7 @@ var logger = require('morgan');
 var hbs = require('express-handlebars')
 var mongoose = require('mongoose');
 var indexRouter = require('./routes/index');
+var apiRouter = require('./routes/api');
 var homeRouter = require('./routes/home');
 var addTableRouter = require('./routes/addTable');
 var categoryRouter = require('./routes/category');
@@ -36,6 +37,7 @@ app.use(express.static('public/css'));
 
 app.use('/', indexRouter);
 app.use('/home',homeRouter);
+app.use('/api', apiRouter);
 app.use('/addTable', addTableRouter);
 app.use('/category', categoryRouter);
 app.use('/dish', dishRouter);
