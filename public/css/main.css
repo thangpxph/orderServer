@@ -10,11 +10,13 @@ body, html {
     background-position: center;
 }
 .bg_table{
+    background-color: #c6c5c5;
     background-image: url("/images/table.png");
     height: 100%;
     background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 10px;
 }
 :root {
     --input-padding-x: 1.5rem;

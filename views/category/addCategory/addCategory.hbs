@@ -1,0 +1,48 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-2 col-md-4">
+            <H1 class="text-white mb-4">Quản lý</H1>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/home">Bàn</a></button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/order">Đơn đặt bàn</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/category">Thể loại</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/dish">Món ăn</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/notification">Thông báo</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="#">Thống kê</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/clientAccount">Tài khoản nhân
+                    viên</a></button>
+            </div>
+        </div>
+        <div class="col-xl-10 col-md-4">
+            <div class="card-header" style="margin-top: 5%">
+                <form action="/add_category" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="text-white">Tên Thể Loại</label>
+                        <input type="text" name="nameProduct" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary mt-3">Thêm Thể Loại</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

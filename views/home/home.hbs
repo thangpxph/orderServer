@@ -60,24 +60,23 @@
                     </div>
                     <div class="card-header"><i class="fas fa-table mr-3"></i>Danh sách bàn</div>
                     <div class=" d-flex justify-content-around row" style="margin: 0 auto">
-                    <!--                        {{#each data}}-->
-                        <!--                                <div id="sta" class="bg_table" style="width: 18rem; height: 16rem; margin: 2em">-->
-                        <!--                                    <div class="card-body">-->
-                        <!--                                        <h5 style="text-align: center">{{this.nameTable}}</h5>-->
-                        <!--                                        <script>-->
-                        <!--                                            var status = {{this.status}};-->
-                        <!--                                            var sta = document.getElementById("sta")-->
-                        <!--                                            if (status == 1) {-->
-                        <!--                                                sta.style.backgroundColor = "#FF0000";-->
-                        <!--                                                document.write("<h2 style='text-align: center'>Đầy</h2>")-->
-                        <!--                                            } else {-->
-                        <!--                                                document.write("<h2 style='text-align: center'>Trống</h2>")-->
-                        <!--                                            }-->
-                        <!--                                        </script>-->
-                        <!--                                        <a href="#" style="margin-top: 9em" class="btn btn-block btn-primary align-bottom">Xem chi tiết</a>-->
-                        <!--                                    </div>-->
-                        <!--                                </div>-->
-                            <!--                        {{/each}}-->
+                        {{#each data}}
+                            <div id="sta" class="bg_table" style="width: 14rem; height: 12rem; margin: 2em">
+                                <div>
+                                    <h4 style="text-align: center">{{this.nameTable}}</h4>
+                                    <script type="text/javascript">
+                                        var status = {{this.status}};
+                                        if (status == 1) {
+                                            document.write("<h2 style='text-align: center'>Trống</h2>")
+                                        } else {
+                                            document.write("<h2 style='text-align: center'>Đầy</h2>")
+                                        }
+                                    </script>
+                                    <a href="#" style="margin-top: 6.5em;width: 10em;margin-left: 2em"
+                                       class="btn btn-block btn-primary align-bottom">Xem chi tiết</a>
+                                </div>
+                            </div>
+                        {{/each}}
                     </div>
                 </div>
             </div>
