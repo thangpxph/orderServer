@@ -3,7 +3,8 @@ var router = express.Router();
 var Category = require('../models/Category');
 
 router.get('/', async function (req, res) {
-    res.render('category/index.hbs')
+    let category = await Category.find({}).lean();
+    res.render('category/index.hbs', {category: category});
 })
 router.get('/addCategory', async function (req, res) {
     res.render('category/addCategory/addCategory.hbs')

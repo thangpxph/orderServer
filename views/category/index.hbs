@@ -6,23 +6,29 @@
                 <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/home">Bàn</a></button>
             </div>
             <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/order">Đơn đặt bàn</a></button>
-            </div>
-            <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/category">Thể loại</a></button>
-            </div>
-            <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/dish">Món ăn</a></button>
-            </div>
-            <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/notification">Thông báo</a>
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/order">Đơn đặt bàn</a>
                 </button>
             </div>
             <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="#">Thống kê</a></button>
+                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/category">Thể loại</a>
+                </button>
             </div>
             <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/clientAccount">Tài khoản nhân viên</a></button>
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/dish">Món ăn</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/notification">Thông
+                    báo</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="#">Thống kê</a>
+                </button>
+            </div>
+            <div class="card bg-primary text-white">
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/clientAccount">Tài
+                    khoản nhân viên</a></button>
             </div>
         </div>
         <div class="col-xl-10 col-md-4">
@@ -30,7 +36,9 @@
                 <div class="card mb-4">
                     <div class="card-header">
                         Danh sách thể loại
-                        <button type="button" class="btn btn-primary btn float-right"><a class="text-white" href="/category/addCategory">Thêm Thể Loại</a></button>
+                        <button type="button" class="btn btn-primary btn float-right"><a class="text-white"
+                                                                                         href="/category/addCategory">Thêm
+                            Thể Loại</a></button>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
@@ -44,6 +52,14 @@
                                     <th style="text-align: center">Xóa</th>
                                 </tr>
                                 </thead>
+                                {{#each category}}
+                                    <tbody>
+                                    <tr>
+                                        <th></th>
+                                        <th>{{this.nameCategory}}</th>
+                                    </tr>
+                                    </tbody>
+                                {{/each}}
                             </table>
                         </div>
                     </div>
