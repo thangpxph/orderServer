@@ -19,17 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61d43303-e308-49a2-a463-19a1080c2889" name="Default Changelist" comment="api">
+    <list default="true" id="61d43303-e308-49a2-a463-19a1080c2889" name="Default Changelist" comment="list Dish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Dish.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Dish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/dish.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/dish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/category/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/category/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/dish/addDish/addDish.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dish/addDish/addDish.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/dish/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dish/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/home.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +83,7 @@
       <workItem from="1605193207212" duration="2372000" />
       <workItem from="1605265495161" duration="1236000" />
       <workItem from="1605269820976" duration="1080000" />
-      <workItem from="1605316470896" duration="6880000" />
+      <workItem from="1605316470896" duration="7507000" />
     </task>
     <task id="LOCAL-00001" summary="Home">
       <created>1605099610117</created>
@@ -163,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605194500613</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="list Dish">
+      <created>1605329581498</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605329581498</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +188,8 @@
     <MESSAGE value="list Category" />
     <MESSAGE value="add Dish" />
     <MESSAGE value="api" />
-    <option name="LAST_COMMIT_MESSAGE" value="api" />
+    <MESSAGE value="list Dish" />
+    <option name="LAST_COMMIT_MESSAGE" value="list Dish" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2958" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605193915979">
@@ -208,30 +208,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="454" y="67" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1605099013974" />
-    <state width="1254" height="279" key="GridCell.Tab.0.bottom" timestamp="1605329059245">
+    <state width="1254" height="279" key="GridCell.Tab.0.bottom" timestamp="1605329538459">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1254" height="279" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605329059245" />
+    <state width="1254" height="279" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605329538459" />
     <state width="1256" height="176" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605271324958" />
-    <state width="1254" height="279" key="GridCell.Tab.0.center" timestamp="1605329059244">
+    <state width="1254" height="279" key="GridCell.Tab.0.center" timestamp="1605329538459">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1254" height="279" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605329059244" />
+    <state width="1254" height="279" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605329538459" />
     <state width="1256" height="176" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605271324958" />
-    <state width="1254" height="279" key="GridCell.Tab.0.left" timestamp="1605329059244">
+    <state width="1254" height="279" key="GridCell.Tab.0.left" timestamp="1605329538459">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1254" height="279" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605329059244" />
+    <state width="1254" height="279" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605329538459" />
     <state width="1256" height="176" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605271324957" />
-    <state width="1254" height="279" key="GridCell.Tab.0.right" timestamp="1605329059245">
+    <state width="1254" height="279" key="GridCell.Tab.0.right" timestamp="1605329538459">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state width="1254" height="279" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605329059245" />
+    <state width="1254" height="279" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605329538459" />
     <state width="1256" height="176" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605271324958" />
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605194505825">
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605329585666">
       <screen x="1366" y="0" width="2560" height="1050" />
     </state>
-    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605194505825" />
+    <state x="1881" y="145" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.2560.1050@1366.0.2560.1050" timestamp="1605329585666" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1605100413016" />
   </component>
 </project>

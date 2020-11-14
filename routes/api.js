@@ -15,10 +15,9 @@ router.get('/getAllDish', async function (req, res) {
 router.get('/getAllTable', async function (req, res) {
     const listTable = await Table.find().lean();
     res.send(listTable);
-})
+});
 router.get('/getAllDish', async function (req, res) {
     const listDish = await Dish.find().lean();
     res.send(listDish);
-})
-
+});
 module.exports = router;
