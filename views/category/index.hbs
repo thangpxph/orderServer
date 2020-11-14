@@ -40,29 +40,25 @@
                                                                                          href="/category/addCategory">Thêm
                             Thể Loại</a></button>
                     </div>
-                    <div class="card-body">
-                        <div class="table-responsive">
-                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                <thead>
-                                <tr>
-                                    <th style="text-align: center">Stt</th>
-                                    <th style="text-align: center">Tên Thể Loại</th>
-                                    <th style="text-align: center">Số món ăn</th>
-                                    <th style="text-align: center">Sửa</th>
-                                    <th style="text-align: center">Xóa</th>
-                                </tr>
-                                </thead>
-                                {{#each category}}
-                                    <tbody>
-                                    <tr>
-                                        <th></th>
-                                        <th>{{this.nameCategory}}</th>
-                                    </tr>
-                                    </tbody>
-                                {{/each}}
-                            </table>
-                        </div>
-                    </div>
+                    <table class="table">
+                        <thead class="thead-light">
+                        <tr>
+<!--                            <th scope="col">Stt</th>-->
+                            <th scope="col">Tên Thể Loại</th>
+                            <th scope="col">Số món ăn</th>
+                            <th scope="col">Sửa</th>
+                            <th scope="col">Xóa</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {{#each category}}
+                            <tr>
+<!--                                <th scope="row">1</th>-->
+                                <td>{{this.nameCategory}}</td>
+                            </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

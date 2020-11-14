@@ -32,14 +32,18 @@
         </div>
         <div class="col-xl-10 col-md-4">
             <div class="card-header" style="margin-top: 5%">
-                <form action="/add_dish" method="post" enctype="multipart/form-data">
+                <form action="/dish/add_dish" method="post" enctype="multipart/form-data">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Tên món ăn</label>
+                        <label >Tên món ăn</label>
                         <input type="text" name="nameProduct" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Thể loại</label>
-                        <input name="amount" type="text" class="form-control">
+                        <label >Thể loại</label>
+                        <input name="category" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label >Thời gian</label>
+                        <input name="times" type="text" class="form-control" >
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Giá bán</label>
@@ -47,8 +51,8 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Thành phần</label>
-                        <input name="brand" type="text" class="form-control">
+                        <label >Thành phần</label>
+                        <input name="ingredient" type="text" class="form-control">
                     </div>
                     <div class="btn btn-secondary-success btn-rounded waves-effect btn-sm float-left w-full text-left">
                         <span>Choose file</span>

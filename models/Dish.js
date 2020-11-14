@@ -4,7 +4,7 @@ const DishSchema = mongoose.Schema({
     category: {type: String},
     time: {type: String},
     price: {type: Number},
-    image: {type: String},
+    urlImage: {type: String},
     ingredient: {type: String}
 });
 const Dish = mongoose.model('dish', DishSchema);
