@@ -37,37 +37,23 @@
                     <div class="card-header">
                         Danh sách món ăn
                         <button type="button" class="btn btn-primary btn float-right"><a class="text-white"
-                                                                                         href="/dish/addDish">Thêm món
-                            ăn</a></button>
+                                                                                         href="/employeeAccount/addAccount">Thêm tài khoản</a></button>
                     </div>
                     <table class="table">
                         <thead class="thead-light">
                         <tr>
                             <!--                            <th scope="col">Stt</th>-->
-                            <th scope="col">Ảnh</th>
-                            <th scope="col">Tên món ăn</th>
-                            <th scope="col">Thể loại</th>
-                            <th scope="col">Giá tiền</th>
-                            <th scope="col">Thời gian</th>
+                            <th scope="col">Họ tên nhân viên</th>
+                            <th scope="col">Ngày sinh</th>
+                            <th scope="col">Địa chỉ</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Password</th>
                             <th scope="col">Thành phần</th>
                             <th scope="col">Chỉnh sửa</th>
                             <th scope="col">Xóa</th>
                         </tr>
                         </thead>
                         <tbody>
-                        {{#each dish}}
-                            <tr>
-                                <td style="width:150px; height: 100px "><img style="object-fit: cover;"
-                                                                             src="{{this.urlImage}}" height=100
-                                                                             width=150></td>
-                                <td>{{this.nameDish}}</td>
-                                <td>{{this.category}}</td>
-                                <td>{{this.time}} phút</td>
-                                <td>{{this.price}} VND</td>
-                                <td>{{this.ingredient}}</td>
-
-                            </tr>
-                        {{/each}}
                         </tbody>
                     </table>
                 </div>

@@ -9,6 +9,7 @@ var homeRouter = require('./routes/home');
 var addTableRouter = require('./routes/addTable');
 var categoryRouter = require('./routes/category');
 var dishRouter = require('./routes/dish');
+var employeeAccountRouter = require('./routes/employeeAccount');
 
 
 var app = express();
@@ -41,6 +42,6 @@ app.use('/api', apiRouter);
 app.use('/addTable', addTableRouter);
 app.use('/category', categoryRouter);
 app.use('/dish', dishRouter);
-
+app.use('/employeeAccount', employeeAccountRouter);
 
 module.exports = app;
