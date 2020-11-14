@@ -14,7 +14,7 @@
                 </button>
             </div>
             <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/dish">Món ăn</a>
+                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/dish">Món ăn</a>
                 </button>
             </div>
             <div class="card bg-primary text-white">
@@ -27,7 +27,7 @@
                 </button>
             </div>
             <div class="card bg-primary text-white">
-                <button type="button" class="btn btn-primary btn-lg"><a class="text-white" href="/employeeAccount">Tài
+                <button type="button" class="btn btn-danger btn-lg"><a class="text-white" href="/employeeAccount">Tài
                     khoản nhân viên</a></button>
             </div>
         </div>
@@ -37,7 +37,8 @@
                     <div class="card-header">
                         Danh sách món ăn
                         <button type="button" class="btn btn-primary btn float-right"><a class="text-white"
-                                                                                         href="/employeeAccount/addAccount">Thêm tài khoản</a></button>
+                                                                                         href="/employeeAccount/addAccount">Thêm
+                            tài khoản</a></button>
                     </div>
                     <table class="table">
                         <thead class="thead-light">
@@ -48,12 +49,20 @@
                             <th scope="col">Địa chỉ</th>
                             <th scope="col">Username</th>
                             <th scope="col">Password</th>
-                            <th scope="col">Thành phần</th>
                             <th scope="col">Chỉnh sửa</th>
                             <th scope="col">Xóa</th>
                         </tr>
                         </thead>
                         <tbody>
+                        {{#each account}}
+                            <tr>
+                                <td>{{this.staffsname}}</td>
+                                <td>{{this.age}}</td>
+                                <td>{{this.address}}</td>
+                                <td>{{this.username}}</td>
+                                <td>{{this.password}}</td>
+                            </tr>
+                        {{/each}}
                         </tbody>
                     </table>
                 </div>

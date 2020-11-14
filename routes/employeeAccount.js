@@ -3,7 +3,8 @@ var router = express.Router();
 var EmployeeAccount = require('../models/EmployeeAccount');
 
 router.get('/', async function (req, res) {
-    res.render('employeeaccount/index.hbs')
+    let employeeAccount = await EmployeeAccount.find({}).lean();
+    res.render('employeeaccount/index.hbs',{account: employeeAccount});
 })
 router.get('/addAccount', async function (req, res) {
     res.render('employeeaccount/addAccount/addAccount.hbs')
